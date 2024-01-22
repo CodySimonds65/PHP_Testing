@@ -28,8 +28,11 @@
     ?>
     
     <h1> 
-        <!-- Echoing short-form -->
+        <!-- Echoing short-form vs long-form -->
         <?= $message; ?>
+        <?php
+            echo $name; 
+        ?>
     </h1>
 
     <ul>
@@ -37,7 +40,9 @@
             <li><?= $book; ?></li>
         <?php endforeach; ?>
     </ul>
-
+    <p>
+        <?= $books[0]; ?>
+    </p>
 
 </body>
 </html>
