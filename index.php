@@ -7,9 +7,8 @@
     <title>Demo</title>
 </head>
 <body>
-
- 
     <?php 
+        //List of Variables, Arrays, and Booleans
         $greeting = "Hello";
         $name = "Dark Matter";
         $read = false;
@@ -19,9 +18,7 @@
             "Hail Mary"
         ];
 
-    ?>
-
-    <?php 
+        //Conditional Statement to test if/else statement
         if($read) {
             $message = "You have finished reading $name";
         } 
@@ -29,8 +26,9 @@
             $message = "You have not finished reading $name";
         }
     ?>
-
+    
     <h1> 
+        <!-- Echoing short-form -->
         <?= $message; ?>
     </h1>
 
