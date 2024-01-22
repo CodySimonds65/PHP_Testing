@@ -17,6 +17,19 @@
             "The Lanfoliers",
             "Hail Mary"
         ];
+        $songs = [
+           [
+                'name' => 'Do andriods dream of electric sheep',
+                'author' => 'Philip K. Dick',
+                'bookWebsite' => 'https://google.com'
+           ],
+           [
+             'name' => 'The lanfoilers',
+             'author' => 'Andy Weir',
+             'bookWebsite' => 'https://google.com'
+
+           ]
+        ];
 
         //Conditional Statement to test if/else statement
         if($read) {
@@ -43,6 +56,18 @@
     <p>
         <?= $books[0]; ?>
     </p>
+    
+    <ul>
+        <?php foreach($songs as $song) : ?>
+            <li>
+                
+                <?= $song['name']; ?>
+        
+            </li>
+
+        <?php endforeach; ?>
+
+    </ul>
 
 </body>
 </html>
