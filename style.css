@@ -1,0 +1,29 @@
+/* FILEPATH: /home/dweebstify/php-websites/first-test/style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, 'Times New Roman';
+}
+
+h1 {
+    font-size: 48px;
+    color: #007bff;
+    font-weight: bold;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Add your custom styles below this line */
