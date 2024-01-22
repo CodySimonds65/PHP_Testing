@@ -13,7 +13,15 @@
         $greeting = "Hello";
         $name = "Dark Matter";
         $read = false;
+        $books = [
+            "Do Andriods Dream of Electric Sheep",
+            "The Lanfoliers",
+            "Hail Mary"
+        ];
 
+    ?>
+
+    <?php 
         if($read) {
             $message = "You have finished reading $name";
         } 
@@ -21,9 +29,16 @@
             $message = "You have not finished reading $name";
         }
     ?>
+
     <h1> 
-        <?php echo $message; ?>"
+        <?= $message; ?>
     </h1>
+
+    <ul>
+        <?php foreach($books as $book) : ?>
+            <li><?= $book; ?></li>
+        <?php endforeach; ?>
+    </ul>
 
 
 </body>

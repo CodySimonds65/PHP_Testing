@@ -9,10 +9,9 @@ h1 {
     font-size: 48px;
     color: #007bff;
     font-weight: bold;
-    display: grid;
-    height: 100vh;
-    margin: 0;
-    place-items: center;
+    display: inline-block;
+    height: 10vh;
+    margin: 1px;
 }
 
 p {
